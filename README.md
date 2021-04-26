@@ -1,20 +1,16 @@
 # idaproject
 
-## Build Setup
+## Перед запуском преверить!
+Для запуска на локаольной машине требуется модуль node.js и пакетный менеджер npm
 
 ```bash
-# install dependencies
+# 1 установка зависимостей проекта 
 $ npm install
 
-# serve with hot reload at localhost:3000
+# 2 создание сборки для разработки (есть возможность использовать vue dev tools)
 $ npm run dev
 
-# build for production and launch server
+# 3 сборка релизной версии 
 $ npm run build
 $ npm run start
-
-# generate static project
-$ npm run generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
